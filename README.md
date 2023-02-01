@@ -1,4 +1,4 @@
-# Streamtopia FrontEnd
+# Streamtopia
 
 A fullstack project focused in the creation of a streaming platform for trailers build in the FrontEnd with React, Framer Motion, Styled Components, React Toastify, React Video, React Responsive Carousel, and React Credit Cards for payment process.
 
