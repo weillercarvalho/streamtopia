@@ -14,29 +14,29 @@ function creatingHeaders() {
 }
 
 function signin(body) {
-  const promise = axios.post(`${BASE_URL}/signin`, body);
+  const promise = axios.post(`${BASE_URL}/api/signin`, body);
   return promise;
 }
 
 function signup(body) {
-  const promise = axios.post(`${BASE_URL}/signup`, body);
+  const promise = axios.post(`${BASE_URL}/api/ignup`, body);
   return promise;
 }
 
 function getPayment() {
   const auth = creatingHeaders();
-  const promise = axios.get(`${BASE_URL}/payment`, auth);
+  const promise = axios.get(`${BASE_URL}/api/payment`, auth);
   return promise;
 }
 
 function postPayment(body) {
   const auth = creatingHeaders();
-  const promise = axios.post(`${BASE_URL}/payment`, body, auth);
+  const promise = axios.post(`${BASE_URL}/api/payment`, body, auth);
   return promise;
 }
 
 function homeScreen() {
-  const promise = axios.get(`${BASE_URL}/home`);
+  const promise = axios.get(`${BASE_URL}/api/home`);
   return promise;
 }
 

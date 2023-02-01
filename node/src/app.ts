@@ -9,9 +9,9 @@ dotenv.config();
 const server = express();
 server.use(cors());
 server.use(express.json());
-server.use(authRouter);
-server.use(paymentRouter);
-server.use(homeRouter);
+server.use("/api", authRouter);
+server.use("/api", paymentRouter);
+server.use("/api", homeRouter);
 
 server.listen(process.env.PORT, () => {
   console.log(`Listening on the ${process.env.PORT} port.`);
