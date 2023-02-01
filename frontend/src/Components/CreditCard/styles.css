@@ -1,0 +1,45 @@
+.container {
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Fira Code', monospace;
+  }
+  
+  .formDiv {
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    font-family: 'Fira Code', monospace;
+
+  }
+  
+  .alert {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Fira Code', monospace;
+  }
+  
+  .form-control {
+    width: 275px;
+    height: 25px;
+    margin-bottom: 3px;
+  }
+  .creditCard{
+      margin-bottom: 10%;
+      font-family: 'Fira Code', monospace;
+  }
+
+  .forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fira Code', monospace;
+  }
+  ::placeholder {
+    font-family: 'Fira Code', monospace;
+  }

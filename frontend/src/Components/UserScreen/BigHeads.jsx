@@ -1,0 +1,148 @@
+import { BigHead } from "@bigheads/core";
+
+const Example1 = () => (
+  <BigHead
+    accessory="tinyGlasses"
+    body="chest"
+    circleColor="blue"
+    clothing="shirt"
+    clothingColor="red"
+    eyebrows="serious"
+    eyes="simple"
+    faceMask={false}
+    faceMaskColor="white"
+    facialHair="none2"
+    graphic="gatsby"
+    hair="short"
+    hairColor="orange"
+    hat="beanie"
+    hatColor="black"
+    lashes
+    lipColor="green"
+    mask
+    mouth="grin"
+    skinTone="dark"
+  />
+);
+const Example2 = () => (
+  <BigHead
+    accessory="shades"
+    body="breasts"
+    circleColor="blue"
+    clothing="vneck"
+    clothingColor="black"
+    eyebrows="serious"
+    eyes="heart"
+    faceMask={false}
+    faceMaskColor="red"
+    facialHair="none2"
+    graphic="gatsby"
+    hair="bob"
+    hairColor="white"
+    hat="none3"
+    hatColor="white"
+    lashes={false}
+    lipColor="green"
+    mask
+    mouth="tongue"
+    skinTone="yellow"
+  />
+);
+const Example3 = () => (
+  <BigHead
+    accessory="shades"
+    body="chest"
+    circleColor="blue"
+    clothing="dress"
+    clothingColor="green"
+    eyebrows="angry"
+    eyes="wink"
+    faceMask={false}
+    faceMaskColor="blue"
+    facialHair="mediumBeard"
+    graphic="redwood"
+    hair="afro"
+    hairColor="brown"
+    hat="none5"
+    hatColor="black"
+    lashes={false}
+    lipColor="red"
+    mask
+    mouth="serious"
+    skinTone="dark"
+  />
+);
+const Example4 = () => (
+  <BigHead
+    accessory="tinyGlasses"
+    body="breasts"
+    circleColor="blue"
+    clothing="tankTop"
+    clothingColor="green"
+    eyebrows="raised"
+    eyes="normal"
+    faceMask={false}
+    faceMaskColor="black"
+    facialHair="none3"
+    graphic="vue"
+    hair="bun"
+    hairColor="white"
+    hat="none3"
+    hatColor="black"
+    lashes={false}
+    lipColor="pink"
+    mask
+    mouth="lips"
+    skinTone="dark"
+  />
+);
+const Example5 = () => (
+  <BigHead
+    accessory="none"
+    body="breasts"
+    circleColor="blue"
+    clothing="naked"
+    clothingColor="blue"
+    eyebrows="concerned"
+    eyes="heart"
+    faceMask={false}
+    faceMaskColor="red"
+    facialHair="mediumBeard"
+    graphic="gatsby"
+    hair="long"
+    hairColor="pink"
+    hat="none4"
+    hatColor="white"
+    lashes
+    lipColor="turqoise"
+    mask
+    mouth="lips"
+    skinTone="light"
+  />
+);
+const Example6 = () => (
+  <BigHead
+    accessory="shades"
+    body="chest"
+    circleColor="blue"
+    clothing="dressShirt"
+    clothingColor="green"
+    eyebrows="leftLowered"
+    eyes="simple"
+    faceMask={false}
+    faceMaskColor="white"
+    facialHair="none3"
+    graphic="redwood"
+    hair="none"
+    hairColor="black"
+    hat="none3"
+    hatColor="red"
+    lashes={false}
+    lipColor="red"
+    mask
+    mouth="openSmile"
+    skinTone="yellow"
+  />
+);
+
+export { Example1, Example2, Example3, Example4, Example5, Example6 };

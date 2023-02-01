@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "module": "es2022",
+    "moduleResolution": "node",
+    "target": "es2017"
+  },
+  "ts-node": {
+    "esm": true,
+    "transpileOnly": true
+  }
+}

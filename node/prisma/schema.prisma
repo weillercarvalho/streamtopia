@@ -1,0 +1,42 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model movies {
+  id     Int    @id @default(autoincrement())
+  resume String
+  image  String
+  name   String
+  genre  String
+}
+
+model payments {
+  id             Int    @id @default(autoincrement())
+  lastNumbers    String
+  name           String
+  expirationDate String
+  cvv            String
+  packageValue   String
+  token          String
+}
+
+model sessions {
+  id       Int    @id @default(autoincrement())
+  userId   Int
+  email    String
+  password String
+  users    users  @relation(fields: [userId], references: [id], onDelete: NoAction, onUpdate: NoAction, map: "session_fk0")
+}
+
+model users {
+  id       Int        @id @default(autoincrement())
+  name     String
+  email    String     @unique
+  password String
+  sessions sessions[]
+}
