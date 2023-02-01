@@ -61,7 +61,7 @@ function App() {
             <Route path="/purchase" element={<PrivatePage><Purchase /></PrivatePage>} />
             <Route path="/payment" element={<PrivatePage><Payment /></PrivatePage>} />
             <Route path="/userchoice" element={<PrivatePage><UserChoice /></PrivatePage>} />
-            <Route path="/home" element={<Home />} />
+            <Route path="/home" element={<PrivatePage><Home /></PrivatePage>} />
           </Routes>
         </BrowserRouter>
       </userContext.Provider>
