@@ -19,7 +19,7 @@ function signin(body) {
 }
 
 function signup(body) {
-  const promise = axios.post(`${BASE_URL}/api/ignup`, body);
+  const promise = axios.post(`${BASE_URL}/api/signup`, body);
   return promise;
 }
 
