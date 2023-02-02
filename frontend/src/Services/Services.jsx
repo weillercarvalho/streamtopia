@@ -14,29 +14,29 @@ function creatingHeaders() {
 }
 
 function signin(body) {
-  const promise = axios.post(`${BASE_URL}/api/signin`, body);
+  const promise = axios.post(`http://18.210.20.135/api/signin`, body);
   return promise;
 }
 
 function signup(body) {
-  const promise = axios.post(`${BASE_URL}/api/signup`, body);
+  const promise = axios.post(`http://18.210.20.135/api/signup`, body);
   return promise;
 }
 
 function getPayment() {
   const auth = creatingHeaders();
-  const promise = axios.get(`${BASE_URL}/api/payment`, auth);
+  const promise = axios.get(`http://18.210.20.135/api/payment`, auth);
   return promise;
 }
 
 function postPayment(body) {
   const auth = creatingHeaders();
-  const promise = axios.post(`${BASE_URL}/api/payment`, body, auth);
+  const promise = axios.post(`http://18.210.20.135/api/payment`, body, auth);
   return promise;
 }
 
 function homeScreen() {
-  const promise = axios.get(`${BASE_URL}/api/home`);
+  const promise = axios.get(`http://18.210.20.135/api/home`);
   return promise;
 }
 
