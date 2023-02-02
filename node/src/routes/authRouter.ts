@@ -10,7 +10,7 @@ import {
 const authRouter = express.Router();
 
 authRouter
-  .post("/signin", signInValidation, signInController)
-  .post("/signup", signUpValidation, signUpController);
+  .post("/api/signin", signInValidation, signInController)
+  .post("/api/signup", signUpValidation, signUpController);
 
 export default authRouter;
