@@ -47,8 +47,4 @@ This is an web application based in create and consume an Api using different te
 RUN:
 
 
-```npm i ```
-
-
-
-```npm run dev```
+```docker compose up --build```
