@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = 'http://54.208.23.134';
+const BASE_URL = 'http://localhost:5000';
 
 
 function creatingHeaders() {
