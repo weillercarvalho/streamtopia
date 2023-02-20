@@ -1,6 +1,6 @@
 # Streamtopia
 
-A fullstack project focused in the creation of a streaming platform for trailers build in the FrontEnd with React, Framer Motion, Styled Components, React Toastify, React Video, React Responsive Carousel, and React Credit Cards for payment process. In the BackEnd was used, NodeJS, Express, Typescript, Jest, Vitest, Docker, AWS(EC2), Redis, PostgreSQL, Prisma.
+A fullstack project focused in the creation of a streaming platform for trailers build in the FrontEnd with React, Framer Motion, Styled Components, React Toastify, React Video, React Responsive Carousel, and React Credit Cards for payment process. In the BackEnd was used, NodeJS, Express, Typescript, Jest, Vitest, Docker, AWS(EC2), Redis, PostgreSQL, Prisma etc.
 
 ![Screenshot from 2023-01-30 12-42-36](https://user-images.githubusercontent.com/99501431/215525185-2a1808e2-e4bd-4d31-9382-c223f83258f5.png)
 
