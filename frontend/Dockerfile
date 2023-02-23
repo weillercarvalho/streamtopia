@@ -1,5 +1,6 @@
 FROM node:16.19.0
 
+RUN npm set cache --global
 # pasta para aonde vai o build
 WORKDIR /app
 
