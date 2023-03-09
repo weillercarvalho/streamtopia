@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = 'http://localhost:5000';
+const BASE_URL = 'http://localhost:5000' // Change this for the IP Address in the Docker EC2 Machine.;
 
 
 function creatingHeaders() {
