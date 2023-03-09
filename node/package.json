@@ -9,7 +9,7 @@
       "dev": "nodemon --legacy-watch ./src/app.ts",
       "build": "tsup src",
       "coverage": "vitest run --coverage",
-      "start": "npx prisma migrate deploy && npm run dev"
+      "start": "npx prisma migrate deploy && node ./src/app.js"
     },
     "keywords": [
       "Typescript",
